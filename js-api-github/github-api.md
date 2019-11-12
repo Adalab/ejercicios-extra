@@ -14,7 +14,7 @@ Si nos quedan ganas intentaremos acercarnos a esta propuesta gráfica usando gri
 
 > Cada letra está separada 20px de la siguiente ;)
 
-![Guía](./github-api.png)
+![Guía](./info/github-api.png)
 
 ## Guión
 
