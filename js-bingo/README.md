@@ -22,3 +22,7 @@ Por cierto, si no sabes cómo generar números aleatorios no repetidos, inténta
 Os propongo un bonus para cuando nos aburrimos de jugar. Es un poco aburrido estar dándole al botón **Sacar una bolita** un montón de veces.
 
 Vamos a añadir un botón **Play**. Cuando una usuaria pulse este botón tenemos que programar un sistema que cada segundo genere una bolita nueva en **Bolitas** y así el bingo juega solo.
+
+## Info extra
+
+Hemos utilizado este ejercicio para mostrar las diferentes fases que seguimos a la hora de programar. Por ello hemos creado varias versiones del ejercicio en cada una de las carpetas **fase-1**, **fase-2**...
