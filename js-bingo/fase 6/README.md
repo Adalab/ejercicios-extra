@@ -1,4 +1,4 @@
-# Fase 3 de la programación: Simplificar el diagrama de flujo
+# Fase 6 de la programación: Simplificar el diagrama de flujo
 
 ## ¿Qué tenemos que hacer?
 
