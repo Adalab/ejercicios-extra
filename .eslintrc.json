@@ -6,7 +6,10 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    "indent": [2, 2],
+    "indent": [
+      2,
+      2
+    ],
     "quotes": [
       2,
       "single",
@@ -15,18 +18,31 @@
         "allowTemplateLiterals": true
       }
     ],
-    "semi": [2, "always"],
+    "semi": [
+      2,
+      "always"
+    ],
     "eqeqeq": 2,
-    "strict": [2, "global"],
+    "strict": [
+      2,
+      "global"
+    ],
     "no-console": 1,
     "array-callback-return": 1,
     "block-scoped-var": 1,
     "consistent-return": 1,
-    "curly": [1, "multi-line", "consistent"],
+    "curly": [
+      1,
+      "multi-line",
+      "consistent"
+    ],
     "no-empty-function": 1,
     "no-useless-return": 1,
     "vars-on-top": 1,
-    "no-use-before-define": [1, "nofunc"],
+    "no-use-before-define": [
+      0,
+      "nofunc"
+    ],
     "global-require": 1,
     "camelcase": 1,
     "new-cap": 1,

@@ -1,4 +1,4 @@
-# Fases 2 de la programación: Identificar las acciones
+# Fase 2 de la programación: Identificar las acciones
 
 ## ¿Qué tenemos que hacer?
 

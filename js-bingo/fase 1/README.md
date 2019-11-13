@@ -1,4 +1,4 @@
-# Fases 1 de la programación: Sacar papel y rotulador
+# Fase 1 de la programación: Sacar papel y rotulador
 
 ## ¿Qué tenemos que hacer?
 
@@ -14,7 +14,7 @@ Tenemos que programar un bingo que tiene las siguientes características:
   - Puede ser al arrancar la página o ...
   - Puede ser cada vez se pulse la tecla **Saca una bolita**.
   - A mí me gusta más generar cada nuevo número cuando se pulsa en el botón.
-- Tiene que generar 20 núermos aleatorios para el área de **Mi cartón**.
+- Tiene que generar 20 números aleatorios para el área de **Mi cartón**.
 - Tenemos dos modos:
   - Manual: actualizamos el área de **Bolitas** y **Mi cartón** cada vez que se pulse **Saca una bolita** y...
   - Automático: actualizamos el área de **Bolitas** y **Mi cartón** cada segundo.
@@ -25,4 +25,3 @@ Tenemos que programar un bingo que tiene las siguientes características:
   - Comprobar si han salido todas las bolitas de **Mi cartón** y si es así...
     - Mostrar el mensaje Han cantado Bingo!!!
     - Eliminar los botones de **Saca una bolita** y **Play**.
-

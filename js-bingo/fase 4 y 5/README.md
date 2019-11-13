@@ -1,6 +1,6 @@
-# Fases 4 de la programación: Pintar el diagrama de flujo
+# Fase 4 y 5 de la programación: Pintar el diagrama de flujo
 
-## ¿Qué tenemos que hacer?
+## ¿Qué tenemos que hacer en la fase 4?
 
 Ahora que ya tenemos identificadas todas las cosas que intervienen en nuestra página vamos a pintar el diagrama de flujo que las relaciona.
 
@@ -16,8 +16,18 @@ Ahora que ya tenemos identificadas todas las cosas que intervienen en nuestra p�
   - Podemos pintar tantas acciones como necesitemos.
   - Algunas de estas acciones deben ser las que hemos identificado en la fase 2 como **acciones hay que hacer cuando "finaliza" la página**.
 
-## Fase 2 del bingo
+## ¿Qué tenemos que hacer en la fase 5?
 
-El diagrama de flujo nos queda así:
+En la fase 3 hemos identificado los datos y elementos del DOM con los que vamos a trabajar. En la fase 4 hemos pintado en el flujo las acciones que hay en nuestra página.
+
+Ahora vamos a escribir dentro de cada acción del flujo los datos y elmentos que intervienen, es decir, los datos y elementos que necesitamos leer y los datos y elementos que tenemos que modificar.
+
+Ya tenemos el flujo completo, pero a lo mejor lo podemos simplificar.
+
+## Fase 4 y 5 del bingo
+
+El diagrama de flujo de la fase 4 y 5 nos queda así:
 
 ![Flow](./flow.svg)
+
+> En negro las acciones, en azul los datos y variables.
