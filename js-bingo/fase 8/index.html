@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Vamos al bingo!!!</title>
+  </head>
+
+  <body class="page">
+
+    <header class="header">
+      <img src="./images/adalab-logo.svg" alt="Adalab" title="El bingo de Adalab" class="header__logo">
+      <h1 class="header__title">Bingo!!!</h1>
+
+      <div>
+        <button class="js-new-number-btn header__btn">Saca una bolita</button>
+        <button class="js-play-btn header__btn">Play</button>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="box">
+        <h3 class="box__title">Bolitas</h3>
+        <ul class="js-bingo-numbers box__numbers">
+        </ul>
+      </section>
+
+      <section class="box">
+        <h3 class="box__title">Mi cartón</h3>
+        <ul class="js-card-numbers box__numbers">
+          <li class="number">1</li>
+          <li class="number selected">2</li>
+          <li class="number">3</li>
+          <li class="number">4</li>
+          <li class="number">5</li>
+          <li class="number">6</li>
+          <li class="number">7</li>
+          <li class="number">8</li>
+          <li class="number">9</li>
+          <li class="number">10</li>
+        </ul>
+      </section>
+
+      <section>
+        <p class="js-bingo-message message">Han cantado bingo!!!</p>
+      </section>
+
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+
+</html>

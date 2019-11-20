@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* page */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background: rgba(20, 217, 196, 0.1);
+}
+
+.page {
+  padding: 0 2rem;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.header__logo {
+  width: 15rem;
+}
+
+.header__title {
+  font-family: "Pacifico", cursive;
+  font-size: 6rem;
+  font-weight: normal;
+  color: #14d9c4;
+}
+
+.header__btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 15px 3px;
+  border-radius: 5px;
+  background: #14d9c4;
+  border: solid 3px #15c3b1;
+  font-weight: inherit;
+  font-size: 16px;
+  color: white;
+  transition: background 0.5s, border 0.5s;
+}
+
+.header__btn:hover {
+  cursor: pointer;
+  background-color: #15c3b1;
+  border-color: #14d9c4;
+}
+
+/* box */
+
+.box {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 6px #14d9c4;
+  border-radius: 4px;
+  background: white;
+}
+
+.box__title {
+  font-size: 1.8rem;
+}
+
+/* numbers */
+
+.box__numbers {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.number {
+  margin: 5px;
+  padding: 14px 0;
+  width: 57px;
+  border: solid 6px #15c3b1;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.number.selected {
+  background: #14d9c4;
+  color: white;
+}
+
+/* message */
+
+.message {
+  font-family: "Pacifico", cursive;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: normal;
+  color: #14d9c4;
+}
+
+/* common */
+
+.hidden {
+  display: none;
+}
