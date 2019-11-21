@@ -3,12 +3,26 @@
 
 const newNumberBtn = document.querySelector('.js-new-number-btn');
 const playBtn = document.querySelector('.js-play-btn');
+const cardNumbers = [];
 
 // start page functions
 
 const init = () => {
   console.log('Se ha iniciado la página');
   console.log('Generar 20 números (no repetidos) para Mi cartón');
+  generateRandomNumbers();
+  paintCardNumbers();
+};
+
+const generateRandomNumbers = function() {
+  for (let i = 0; i < 20; i += 1) {
+    const randomNumber = generateRandomNumber(100);
+    cardNumbers.push(randomNumber);
+  }
+};
+
+const generateRandomNumber = function(max) {
+  return Math.ceil(Math.random() * max);
 };
 
 // dom listeners
@@ -49,6 +63,20 @@ const paintBingoNumbers = () => {
 const paintCardNumbers = () => {
   console.log('Repintar todos los números de Mi cartón');
   console.log('Repintar cada número de Mi cartón');
+
+  let htmlCode = '';
+  // for (let i = 0; i < cardNumbers.length; i = i + 1) {
+  //   htmlCode += `<li class="number">${cardNumbers[i]}</li>`;
+  // }
+
+  let cardNumber;
+  for (cardNumber of cardNumbers) {
+    htmlCode += `<li class="number">${cardNumber}</li>`;
+  }
+
+  const cardNumbersElement = document.querySelector('.js-card-numbers');
+  cardNumbersElement.innerHTML = htmlCode;
+
   console.log('¿El número de Mi cartón está en Bolitas?');
   if (true) {
     paintMatchedCardNumber();
