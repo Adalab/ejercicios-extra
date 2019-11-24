@@ -194,7 +194,7 @@ Para ello antes de pintar a una alumna tendréis que comprobar si su `id` está 
 </div>
 ```
 
-### 5 Pintar en pantalla los nombres de las promos y los nombres, la edad, el id de las alumnas y pintar el id de la alumna en consola cuando se haga click en una de ellas
+### 8 Pintar en pantalla los nombres de las promos y los nombres, la edad, el id de las alumnas y pintar el id de la alumna en consola cuando se haga click en una de ellas
 
 ```html
 <div class="js-result">
@@ -227,7 +227,7 @@ Para ello antes de pintar a una alumna tendréis que comprobar si su `id` está 
 </div>
 ```
 
-Para hacer esto hay varias formas pero la mejor es escuchar un click sobre el div que lo recubre todo y trabajar con el evento. Al escuchar un evento sobre un elemento que recubre los que nos interesa estamos haciendo [Event deletagion](https://books.adalab.es/materiales-front-end-h/modulo-2.-programando-la-web/2_5_eventos#ejercicio-12-bonus).
+Para hacer esto hay varias formas pero la mejor es escuchar un click sobre el div que lo recubre todo y trabajar con el evento. Al escuchar un evento sobre un elemento que recubre los que nos interesa estamos haciendo [Event delegation](https://books.adalab.es/materiales-front-end-h/modulo-2.-programando-la-web/2_5_eventos#ejercicio-12-bonus).
 
 Os damos unas pistas:
 
