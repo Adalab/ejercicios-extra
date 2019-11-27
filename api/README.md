@@ -5,13 +5,11 @@ Aquí tenemos un listado de APIs para practicar la consulta de datos a través d
 ## APIs de Adalab
 
 ```js
-fetch(
-  `https://beta.adalab.es/ejercicios-extra/tree/master/api/adalab-promos.json`
-);
+fetch(`https://beta.adalab.es/ejercicios-extra/tree/adalab-promos.json`);
 ```
 
-- https://beta.adalab.es/ejercicios-extra/tree/master/api/adalab-promos.json
-- https://beta.adalab.es/ejercicios-extra/tree/master/api/adalab-github.json | https://developer.github.com/v3/
+- https://beta.adalab.es/ejercicios-extra/tree/adalab-promos.json
+- https://beta.adalab.es/ejercicios-extra/tree/adalab-github.json | https://developer.github.com/v3/
 
 ## APIs públicas
 
