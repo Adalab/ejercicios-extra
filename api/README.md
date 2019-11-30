@@ -18,6 +18,9 @@ fetch(`https://beta.adalab.es/ejercicios-extra/api/adalab-promos.json`);
 - Nombres de personas: https://github.com/thm/uinames
 - Star Wars: https://swapi.co/
 - Chistes de Chuck Norris: http://www.icndb.com/api/
+- Pokemon: https://pokeapi.co/
+- Harry Potter: https://www.potterapi.com/
+- The Audio DB: https://www.theaudiodb.com/api_guide.php
 
 ## Contribuir
 
