@@ -1,0 +1,50 @@
+[
+  {
+    "pair": "150",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png",
+    "name": "mewtwo",
+    "fav": false
+  },
+  {
+    "pair": "25",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "name": "pikachu",
+    "fav": true
+  },
+  {
+    "pair": "1",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+    "name": "bulbasur",
+    "fav": false
+  },
+  {
+    "pair": "4",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
+    "name": "charmander",
+    "fav": false
+  },
+  {
+    "pair": "150",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "name": "mewtwo",
+    "fav": false
+  },
+  {
+    "pair": "4",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "name": "charmander",
+    "fav": false
+  },
+  {
+    "pair": "1",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "name": "bulbasur",
+    "fav": false
+  },
+  {
+    "pair": "25",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png",
+    "name": "pikachu",
+    "fav": true
+  }
+]

@@ -5,11 +5,12 @@ Aquí tenemos un listado de APIs para practicar la consulta de datos a través d
 ## APIs de Adalab
 
 ```js
-fetch(`https://beta.adalab.es/ejercicios-extra/api/adalab-promos.json`);
+fetch(`https://beta.adalab.es/ejercicios-extra/api/promos/data.json`);
 ```
 
-- https://beta.adalab.es/ejercicios-extra/api/adalab-promos.json
-- https://beta.adalab.es/ejercicios-extra/api/adalab-github.json | https://developer.github.com/v3/
+- [Promos](https://beta.adalab.es/ejercicios-extra/api/promos/data.json)
+- [Github](https://beta.adalab.es/ejercicios-extra/api/github/data.json), [API oficial de GitHub](https://developer.github.com/v3/)
+- Pokemon cards: [4](https://beta.adalab.es/ejercicios-extra/api/pokemon-cards/4.json), [6](https://beta.adalab.es/ejercicios-extra/api/pokemon-cards/6.json) y [8](https://beta.adalab.es/ejercicios-extra/api/pokemon-cards/8.json)
 
 ## APIs públicas
 
