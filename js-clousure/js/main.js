@@ -2,7 +2,6 @@ const one = 1;
 
 const addEvent = (inputSelector, resultSelector, prefix = '') => {
   const inputHandle = (ev) => {
-    debugger;
     const resultElement = document.querySelector(resultSelector);
     resultElement.innerHTML = prefix + ev.target.value;
   }
