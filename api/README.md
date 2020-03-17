@@ -22,6 +22,7 @@ fetch(`https://beta.adalab.es/ejercicios-extra/api/promos/data.json`);
 - Pokemon: https://pokeapi.co/
 - Harry Potter: https://www.potterapi.com/
 - The Audio DB: https://www.theaudiodb.com/api_guide.php
+- Los simpsons https://thesimpsonsquoteapi.glitch.me/
 
 ## Contribuir
 
