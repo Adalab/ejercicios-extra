@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Introducción a flexbox</title>
+  </head>
+
+  <body class="page">
+
+    <h1 class="title">Introducción a flexbox</h1>
+
+    <div class="container">
+      <div class="item item-1">1</div>
+      <div class="item item-2">2</div>
+      <div class="item item-3">3</div>
+    </div>
+
+    <p>El contendor mide 500px de ancho.</p>
+    <p>Los hijos miden 100px de ancho cada uno.</p>
+
+    <h3>¿A quién afecta flex?</h3>
+
+    <ol>
+      <li>
+        Con flex solo son afectados el contenedor <strong>.container</strong> y a sus hijos directos <strong>.item</strong>.
+      </li>
+      <li>
+        Los nietos del contenedor no se ven afectados.
+      </li>
+    </ol>
+
+    <h3>¿Dónde se aplican?</h3>
+
+    <ol>
+      <li>
+        Se aplican los estilos del contenedor (dirección, distribución...) en el contenedor.
+      </li>
+      <li>
+        Se aplican los estilos comunes a todos los hijos a una clase común para todos los hijos: <strong>.item</strong>.
+      </li>
+      <li>
+        Si uno de los hijos tiene una disposición o tamaño diferente se le aplica estilos solo a ese hijo <strong>.item-x</strong>.
+      </li>
+    </ol>
+
+    <h3>Procedimiento normal</h3>
+
+    <ol>
+      <li>
+        Se recomienda aplicar <strong>box-sizing</strong> y <strong>border</strong> o <strong>background-color</strong> al contenedor y a los hijos para visualizar cómo se comportan (después se puede borrar).
+      </li>
+      <li>
+        Indicar en el contenedor: <strong>display: flex</strong>.
+      </li>
+      <li>
+        Indicar en el contenedor la dirección del eje principal: <strong>flex-direction: row, column...</strong>.
+      </li>
+      <li>
+        No hay que confundir eje principal con eje horizontal, ni eje secundario con eje vertical.
+      </li>
+      <li>
+        Hay que tener muy muy claro cuál queremos que sea el eje principal y cuál el secundario.
+      </li>
+      <li>
+        Indicar en el contenedor si queremos que los items salten de línea o se mantengan en una sola: <strong>flex-wrap: wrap</strong>. A lo mejor es necesario añadir muchos hijos para poder ver el salto de línea.
+      </li>
+      <li>
+        Indicar en el contenedor cómo se alinean o distribuyen los items en el eje principal, en el caso de que sobre o falte espacio: <strong>justify-content: center</strong>.
+      </li>
+      <li>
+        Indicar en el container cómo se alinean o distribuyen los items en el eje secundario: <strong>align-items: center</strong>.
+      </li>
+      <li>
+        Indicar a todos los items el tamaño que deben tener: ancho si el eje principal es horizontal o alto si el eje principal es vertical.
+      </li>
+    </ol>
+
+    <h3>Procedimiento avanzado</h3>
+
+    <ol start="10">
+      <li>
+        Si queremos indicar un ancho variable en función del espacio sobrante o el espacio faltante, usamos: <strong>flex-grow</strong>, <strong>flex-shring</strong>.
+      </li>
+      <li>
+        Si queremos indicar un ancho inicial antes de repartir el espacio sobrante o faltante, usamos: <strong>flex-basis</strong>.
+      </li>
+      <li>
+        Si queremos usar un ancho fijo usamos: <strong>width</strong>.
+      </li>
+      <li>
+        Indicar en un item el tamaño especial que debe tener: <strong>flex-grow</strong>, <strong>flex-shring</strong> y <strong>flex-basis</strong>.
+      </li>
+      <li>
+        Si queremos cambiar el orden de los hijos le aplicamos <strong>order</strong> a uno de ellos, teniendo en cuenta que órdenes menores de 1 se moverán a la izquierda y mayores de 1 se moverán a la derecha.
+      </li>
+    </ol>
+
+  </body>
+
+</html>
