@@ -45,7 +45,8 @@
 .item-1 {
   display: flex;
   justify-content: center;
-  animation: delay 1s;
-  -moz-animation: delay 1s;
-  -webkit-animation: time 1s;
+}
+
+.item-2 {
+  order: 1;
 }
