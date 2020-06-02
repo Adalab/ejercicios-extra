@@ -4,6 +4,8 @@ Hoy vamos a hacer una página que muestre un gráfico de barras como el de la si
 
 ![mockup.svg](./info/mockup.svg)
 
+En la [esta página](https://beta.adalab.es/ejercicios-extra/js-bar-charts/) podéis ver el resultado esperado.
+
 ## Elementos de la página
 
 - En la parte superior de la página debe aparecer el logotipo de Adalab.
