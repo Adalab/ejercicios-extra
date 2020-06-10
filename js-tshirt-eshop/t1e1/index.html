@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carro de la compra</title>
+    <link rel="stylesheet" href="//beta.adalab.es/resources/stylesheets/all.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body class="page col2">
+    <div>
+      <h2 class="title--medium">Listado de camisetas</h2>
+
+      <section class="js-cards cards"></section>
+
+      <!-- <section class="cards">
+
+        <article class="card">
+          <img src="./images/node-js.jpg" class="card__img" alt="Camiseta de Node JS">
+          <h3 class="card__title">Node JS</h3>
+          <p class="card__description">12,00 €</p>
+          <span>---</span>
+          <button class="card__btn">Añadir a la cesta</button>
+        </article>
+
+        <article class="card">
+          <img src="./images/javascript.jpg" class="card__img" alt="Camiseta de JavaScript">
+          <h3 class="card__title">JavaScript</h3>
+          <p class="card__description">15,00 €</p>
+          <span>---</span>
+          <button class="card__btn">Añadir a la cesta</button>
+        </article>
+
+        <article class="card">
+          <img src="./images/react.jpg" class="card__img" alt="Camiseta de React JS">
+          <h3 class="card__title">React JS</h3>
+          <p class="card__description">13,00 €</p>
+          <span>---</span>
+          <button class="card__btn">Añadir a la cesta</button>
+        </article>
+
+      </section> -->
+    </div>
+
+    <div>
+      <h2 class="title--medium">Cesta de la compra</h2>
+
+      <table class="table">
+        <thead>
+          <tr class="text--bold">
+            <td>Producto</td>
+            <td>Precio</td>
+            <td>Unidades</td>
+            <td class="text-align-right">Total</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>JavaScript</td>
+            <td>15,00</td>
+            <td>
+              <button class="card__btn">-</button>
+              2
+              <button class="card__btn">+</button>
+            </td>
+            <td class="text-align-right">30,00€</td>
+          </tr>
+          <tr>
+            <td>Node JS</td>
+            <td>12,00</td>
+            <td>
+              <button class="card__btn">-</button>
+              3
+              <button class="card__btn">+</button>
+            </td>
+            <td class="text-align-right">36,00€</td>
+          </tr>
+          <tr class="text--bold">
+            <td>Total</td>
+            <td colspan="3" class="text-align-right">66,00€</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

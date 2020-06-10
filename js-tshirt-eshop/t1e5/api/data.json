@@ -1,0 +1,29 @@
+{
+  "cart": {
+    "address": {
+      "address": "Calle del Ferrocarril 19",
+      "city": "Madrid",
+      "zip": 28045
+    },
+    "items": [
+      {
+        "name": "Node JS",
+        "price": 16,
+        "imageUrl": "//beta.adalab.es/ejercicios-extra/api/eshop/assets/images/node-js.jpg",
+        "quantity": 1
+      },
+      {
+        "name": "JavaScript",
+        "price": 15,
+        "imageUrl": "//beta.adalab.es/ejercicios-extra/api/eshop/assets/images/javascript.jpg",
+        "quantity": 1
+      },
+      {
+        "name": "React JS",
+        "price": 13,
+        "imageUrl": "//beta.adalab.es/ejercicios-extra/api/eshop/assets/images/react.jpg",
+        "quantity": 1
+      }
+    ]
+  }
+}
