@@ -6,7 +6,7 @@ Hemos querido prepararos un ejercicio global y completo que relaciona todos los 
 
 Este ejercicio se grabó con público en directo en clase, durante el **módulo 2 de la Promo Idelisa**. Y es una tienda online de camisetas molonas:
 
-![La tienda de camisetas](./assets/tshirt-eshop.jpg)
+![La tienda de camisetas](./assets/tshirt-eshop.png)
 
 ### Temporadas
 
