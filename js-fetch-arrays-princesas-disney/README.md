@@ -1,5 +1,5 @@
 # Princess Twitter 
-Ha llegado a nuestras manos un proyecto muy interesante, ¡hacer una red social!. Pero no cualquier red social, para la gente normal ya existe Twitter e Instagram. Nos han pedido hacer una red social para princesas Disney ❤️, un lugar en el que puedan conectarse y comprenderse con sus problemas típicos del día a día que nosotros jamás entenderíamos...
+Ha llegado a nuestras manos un proyecto muy interesante, ¡hacer una red social!. Pero no cualquier red social, para la gente normal ya existe Twitter e Instagram. Nos han pedido hacer una red social para princesas Disney ❤️, un lugar en el que puedan conectarse y comprenderse con sus problemas típicos del día a día que nosotras jamás entenderíamos...
 
 Nuestro cliente nos ha dado una URL de la que debemos extraer los datos, ya que tienen montado el back y nosotras solamente tenemos que pintar la información en el front.
 
