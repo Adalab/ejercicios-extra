@@ -15,14 +15,14 @@ fetch(`https://beta.adalab.es/ejercicios-extra/api/promos/data.json`);
 ## APIs públicas
 
 - BiciMad: http://api.citybik.es/v2/ | http://api.citybik.es/v2/networks/bicimad
-- Random user: https://randomuser.me/ | https://randomuser.me/api/
+- Random user: https://randomuser.me/ | https://randomuser.me/api
 - Nombres de personas: https://github.com/thm/uinames
-- Star Wars: https://swapi.co/
-- Chistes de Chuck Norris: http://www.icndb.com/api/
-- Pokemon: https://pokeapi.co/
-- Harry Potter: https://www.potterapi.com/
+- Star Wars: https://swapi.dev
+- Chistes de Chuck Norris: http://www.icndb.com/api
+- Pokemon: https://pokeapi.co
+- Harry Potter: https://www.potterapi.com
 - The Audio DB: https://www.theaudiodb.com/api_guide.php
-- Los simpsons https://thesimpsonsquoteapi.glitch.me/
+- Los Simpsons https://thesimpsonsquoteapi.glitch.me
 
 ## Contribuir
 
