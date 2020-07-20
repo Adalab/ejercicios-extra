@@ -1,0 +1,14 @@
+.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table .email--cell {
+  padding: 0;
+  margin: 0;
+}
+
+.email--link {
+  display: block;
+  padding: 10px;
+}

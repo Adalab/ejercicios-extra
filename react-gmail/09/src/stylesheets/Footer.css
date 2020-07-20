@@ -1,0 +1,20 @@
+.footer {
+  box-sizing: content-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 1rem;
+  padding-top: 1rem;
+  width: calc(100% - 2rem);
+  border-top: solid 1px #eee;
+}
+
+.nav__link {
+  padding: 0 0.5rem;
+}
+
+.btn--close {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+}
