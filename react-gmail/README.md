@@ -10,7 +10,5 @@ Este ejercicio se grabó con público en directo en clase, durante el **módulo 
 
 ### Capítulos
 
-- Este ejercicio está compuesto de una carpeta **00** donde está el enunciado del ejercicio y 9 capítulos que están en las carpetas **01 a la 09**.
-- Las carpetas **01 a la 09** se corresponden con cada uno de las lecciones del curso.
 - El código fuente HTML, JS, React y CSS de cada capítulo está en su respectiva carpeta en el [repositorio de ejercicios extra > react gmail](https://github.com/Adalab/ejercicios-extra/tree/master/react-gmail).
 - El código fuente que hay en estas carpetas es código que hay al final de cada capítulo.
