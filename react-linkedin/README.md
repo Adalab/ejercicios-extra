@@ -1,6 +1,6 @@
 # Linkedin
 
-Este es el ejercicio 1 de la lección 3.10 en el que gestiona un listado de usuarios.
+Este es el ejercicio 1 de la lección 3.10 en el que gestiona un listado de usuarios, resuelto en clase.
 
 ## Vídeos
 
