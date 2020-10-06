@@ -108,7 +108,7 @@ Para ello crearemos una nueva función `writeMyArray` que aceptará como paráme
 
 Ahora que hemos conseguido eso, aparece una compañera y nos dice: ey, si podéis hacer eso, yo tengo una API que me devuelve algo muy parecido, podría pasaros la url para que en lugar de tirar de un array metido a fuego y azufre en el código, tirásemos de los datos que nos devuelve un servidor. ¿sí?
 
-URL: `https://beta.adalab.es/ejercicios-extra/js-funciones-y-parametros-desde-cero/data.json`
+URL: [`https://beta.adalab.es/ejercicios-extra/js-funciones-y-parametros-desde-cero/data.json`](https://beta.adalab.es/ejercicios-extra/js-funciones-y-parametros-desde-cero/data.json)
 
 Para ello tenemos que saber usar [`fetch`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API).
 
