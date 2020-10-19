@@ -10,4 +10,4 @@ Tenemos dos ejercicios:
    1. Escuchar el evento click sobre las tarjetas pintadas.
    1. Averiguar qué tarjeta ha sido clickado, gracias al id.
 
-Happy coding!!!
+**Happy coding!!!**
