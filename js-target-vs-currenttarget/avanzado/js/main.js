@@ -25,7 +25,7 @@ const cards = [
 
 const paintCards = function () {
   let codeHtml = '';
-  for (let i = 0; i < cards.length; i++) {
+  for (let i = 0; i < cards.length; i += 1) {
     if (cards[i].active === true) {
       codeHtml += `<li id="${i}" class="js-card card active">`;
     } else {
@@ -59,7 +59,7 @@ const handleCardClick = function (ev) {
 };
 
 const listenEvents = function () {
-  // get all cards
+  // get all cards elements
   const cardsElements = document.querySelectorAll('.js-card');
   // listen click event on each card
   for (const cardElement of cardsElements) {
