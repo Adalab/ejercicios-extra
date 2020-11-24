@@ -53,6 +53,7 @@ const handleCardClick = function (ev) {
   resultElement.innerHTML = clickedCardId;
   // update clicked card data in array
   cards[clickedCardId].active = true;
+  cards[clickedCardId].title = 'Seleccionado';
   // paint cards and listen events again
   paintCards();
   listenEvents();
