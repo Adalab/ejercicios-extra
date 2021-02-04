@@ -2,6 +2,7 @@
   "version": "v0.0.0",
   "palettes": [
     {
+      "id": "1-93-po",
       "name": "Tardis Blue",
       "from": "Doctor Who",
       "colors": [
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "2-54-ha",
       "name": "Millenium Falcon",
       "from": "Star Wars",
       "colors": [
@@ -24,6 +26,7 @@
       ]
     },
     {
+      "id": "3-02-ma",
       "name": "Battlestar Galactica",
       "from": "Battlestar Galactica",
       "colors": [
@@ -35,6 +38,7 @@
       ]
     },
     {
+      "id": "4-87-mm",
       "name": "Serenity",
       "from": "Firefly",
       "colors": [
@@ -46,6 +50,7 @@
       ]
     },
     {
+      "id": "5-44-sw",
       "name": "Nostromo",
       "from": "Alien",
       "colors": [
