@@ -1,10 +1,17 @@
-# Bookmark: Variables
+# Bookmark: Usar variables
 
-## Ejercicio
+## Ejercicio 1
 
-Vamos a modificar lo que tenemos realizado hasta el momento en este ejercicio, con el objetivo de comenzar a almacenar la información en variables globales.
+Vamos a usar variables que luego interpolaremos en el string con el HTML de cada bookmark.
+Os proponemos usar 6 variables por cada enlace:
 
-1. Para ello vamos a crear variables para cada uno de los bookmarks, por ejemplo podemos crear variables para almacenar cada una de los atributos de los enlaces, quedando las variables del primer enlace como se muestra a continuación:
+1. Una variable para la URL (dirección del enlace).
+1. Una variable para la descripción
+1. Una variable para indicar si es del módulo actual o no.
+1. Otras dos variables que indiquen las etiquetas de ese enlace.
+1. Una última variable con el HTML del enlace en la que interpolaremos las anteriores.
+
+Por ejemplo:
 
 ```js
 const bmk_1_url =
@@ -16,30 +23,16 @@ const bmk_1_tags_2 = "html";
 ```
 
 > **Nota** : Usamos \_ en los nombres de las variables, pero por una razón académica.
-> En JS se suele usar la notación [camelCase](https://es.wikipedia.org/wiki/Camel_case) para los identificadores, tener en cuenta que nos referimos a identificador es igual a nombre de variable.
+> En JS se suele usar la notación [camelCase](https://es.wikipedia.org/wiki/Camel_case) para los nombres de variable.
 
-2. Vamos a añadir esa información de los bookmarks dentro de las variables que creamos en la clase anterior:
+## Ejercicio 2: Bonus
 
-```js
-const link1 = `
-  <li class="data__listitem">
-    <article class="data__item">
-      <p class="item__url">
-        <a href="${bmk_1_url}" target="_blank" rel="noopener noreferrer">
-          ${bmk_1_url}
-        </a>
-      </p>
-      <p class="item__seen">
-        <input type="checkbox" ${bmk_1_seen} name="item_imp_2" id="item_imp_2">
-      </p>
-      <p class="item__desc">${bmk_1_desc}</p>
-      <ul class="item__tags">
-        <li class="item__tag">${bmk_1_tags_1}</li>
-        <li class="item__tag">${bmk_1_tags_2}</li>
-      </ul>
-    </article>
-  </li>
-  `;
-```
+¿Serías capaz de buscar métodos de String para pasar a minúsculas el nombre de las etiquetas?
 
-3. Vamos a ejecutar estos pasos por cada uno de los enlaces que tenemos hasta el momento. De esta manera tendremos almacenada la información en variables, y cualquier cambio no afectaria la constantes de `link1`, `link2` y `link3`
+## Ejercicio 3: Bonus
+
+¿Serías capaz de quitar el 'https://' del principio de la dirección en el contenido del enlace usando otro método de String? (en el href no se lo quites)
+
+---
+
+P.D.- Comenta el código de ayer en el que se mostraban el menú y el formulario.
