@@ -15,7 +15,7 @@ const bmk_1_tags_1 = "javascript";
 const bmk_1_tags_2 = "html";
 ```
 
-> **Nota** : Usamos \_ en los nombres, pero por una razón académica.
+> **Nota** : Usamos \_ en los nombres de las variables, pero por una razón académica.
 > En JS se suele usar la notación [camelCase](https://es.wikipedia.org/wiki/Camel_case) para los identificadores, tener en cuenta que nos referimos a identificador es igual a nombre de variable.
 
 2. Vamos a añadir esa información de los bookmarks dentro de las variables que creamos en la clase anterior:
@@ -42,4 +42,4 @@ const link1 = `
   `;
 ```
 
-3. Vamos a ejecutar estos pasos por cada uno de los enlaces que tenemos hasta el momento.
+3. Vamos a ejecutar estos pasos por cada uno de los enlaces que tenemos hasta el momento. De esta manera tendremos almacenada la información en variables, y cualquier cambio no afectaria la constantes de `link1`, `link2` y `link3`
