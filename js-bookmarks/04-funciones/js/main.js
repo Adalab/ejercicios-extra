@@ -36,7 +36,7 @@ const bmk_3_lesson = '';
 const bmk_3_tags_1 = 'html';
 const bmk_3_tags_2 = 'css';
 
-/* Dia4.6 */
+/* Dia4.4 */
 
 function renderBookmarkTags( tags_1, tags_2 ) {
   if( tags_1 === '' && tags_2 == '' ) {
@@ -56,6 +56,8 @@ function renderBookmarkTags( tags_1, tags_2 ) {
       </ul>`;
   }
 }
+
+/* Dia4.5 */
 
 function renderBookmark( url, desc, lesson, tags_1, tags_2 ) {
   const tagsHtml = renderBookmarkTags( tags_1, tags_2 );
@@ -97,7 +99,7 @@ list_data.innerHTML = html;
 
 
 
-/* Dia4.1-2 Prueba mostrar lista */
+/* Dia4.1 Prueba mostrar lista */
 
 const displayTableView = () => {
   board_data.classList.remove('listview');
@@ -118,7 +120,7 @@ else if( board_data.classList.contains('listview') ) {
 
 
 
-/* Dia4.3-4 Prueba mostrar menu */
+/* Dia4.2 Prueba mostrar menu */
 
 const showDropmdownMenu = () => {
   menuDropdown.classList.remove('collapsed');
@@ -129,7 +131,7 @@ const hideDropmdownMenu = () => {
 
 //showDropmdownMenu();
 
-/* Dia4.5 Prueba mostrar formulario nuevo bookmark */
+/* Dia4.3 Prueba mostrar formulario nuevo bookmark */
 
 const showAddForm = () => {
   boxAdd.classList.remove('hidden');
