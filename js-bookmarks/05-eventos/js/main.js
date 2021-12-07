@@ -21,21 +21,21 @@ const buttonShowTable = document.querySelector('.js_table_button');
 
 // Variables para el primer bookmark:
 
-const bmk_1_url    = 'https://books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-2-programando-la-web/javascript/2_1_intro_a_la_programacion';
-const bmk_1_desc   = 'JS en los materiales de Adalab';
-const bmk_1_seen   = 'checked title="Enlace leído"';
+const bmk_1_url = 'https://books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-2-programando-la-web/javascript/2_1_intro_a_la_programacion';
+const bmk_1_desc = 'JS en los materiales de Adalab';
+const bmk_1_seen = 'checked title="Enlace leído"';
 const bmk_1_tags_1 = 'javascript';
 const bmk_1_tags_2 = '';
 
-const bmk_2_url    = 'https://thesmartcoder.dev/9-awesome-projects-you-can-build-with-vanilla-javascript/';
-const bmk_2_desc   = 'Ideas de proyectos JS';
-const bmk_2_seen   = 'checked title="Enlace leído"';
+const bmk_2_url = 'https://thesmartcoder.dev/9-awesome-projects-you-can-build-with-vanilla-javascript/';
+const bmk_2_desc = 'Ideas de proyectos JS';
+const bmk_2_seen = 'checked title="Enlace leído"';
 const bmk_2_tags_1 = '';
 const bmk_2_tags_2 = '';
 
-const bmk_3_url    = 'https://books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-1-html-y-css/1_1_intro_a_la_web';
-const bmk_3_desc   = 'HTML en los materiales de Adalab';
-const bmk_3_seen   = 'title="Por leer"';
+const bmk_3_url = 'https://books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-1-html-y-css/1_1_intro_a_la_web';
+const bmk_3_desc = 'HTML en los materiales de Adalab';
+const bmk_3_seen = 'title="Por leer"';
 const bmk_3_tags_1 = 'html';
 const bmk_3_tags_2 = 'css';
 
@@ -65,12 +65,12 @@ function renderTags(tags_1, tags_2) {
   let htmlTags = `
     <ul class="item__tags">`;
 
-  if( tags_1 !== '' ) {
+  if (tags_1 !== '') {
     htmlTags += `
       <li class="item__tag">${tags_1}</li>`;
   }
-  
-  if( tags_2 !== '' ) {
+
+  if (tags_2 !== '') {
     htmlTags += `
       <li class="item__tag">${tags_2}</li>`;
   }
@@ -174,7 +174,7 @@ function hideDropDownMenu() {
 
 function toggleDropDownMenu() {
 
-  if( menuDropdown.classList.contains('collapsed') ) {
+  if (menuDropdown.classList.contains('collapsed')) {
     showDropDownMenu();
   }
   else {
@@ -206,20 +206,19 @@ function showAddForm() {
 
 // Día 5: Se escucha el click en el enlace del botón hamburguesa
 // para mostrar u ocultar el menú dropdown.
+linkDropdown.addEventListener('click', handleClickLinkDropdown);
 
 function handleClickLinkDropdown(event) {
   event.preventDefault();
-
   toggleDropDownMenu();
 }
-
 
 
 // Día 5: Se escucha el click del botón "Vista tarjetas" del menú
 // dropdown y se cambia la visualización de los bookmarks a tarjetas,
 // además de resaltar ese botón.
 
-linkDropdown.addEventListener('click', handleClickLinkDropdown);
+
 
 function handleClickShowCardview(event) {
   event.preventDefault();
