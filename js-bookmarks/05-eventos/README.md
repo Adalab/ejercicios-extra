@@ -1,12 +1,12 @@
 # Bookmark: Eventos
 
-Antes de hacer los ejercicios puedes verificar si tienes las funciones creadas de la sesión anterior.
-
 ## Ejercicio 1
 
-Haz una función (podemos llamarla `handleClickLinkDropdown`) para mostrar y/o ocultar el menú lateral. Agrega un evento para cuando damos `click` en el botón hamburguesa.
+Haz una función (podemos llamarla `handleClickLinkDropdown`) que muestra u oculta el menú colapsable dependiendo de su estado actual. Agrega un evento para cuando damos `click` en el botón hamburguesa.
 
-> **Nota**: Recuerda utilizar el `event.preventDefault()`
+> **Nota**:
+> Recuerda utilizar el `event.preventDefault()`.
+> La clase `collapsed` es la que muestra y/u oculta el menú colapsable.
 
 ## Ejercicio 2
 
