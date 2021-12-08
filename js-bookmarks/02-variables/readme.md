@@ -1,4 +1,4 @@
-# Bookmark: Usar variables
+# Bookmark: Variables
 
 ## Ejercicio 1
 
