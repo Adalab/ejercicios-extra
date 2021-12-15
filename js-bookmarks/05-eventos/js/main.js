@@ -12,10 +12,6 @@ const listData = document.querySelector('.js_list_data');
 const buttonShowCardview = document.querySelector('.js_cardview_button');
 const buttonShowTable = document.querySelector('.js_table_button');
 
-
-
-
-
 /*    Sección de variables globales (que usamos en todo el fichero)    */
 /*  -----------------------------------------------------------------  */
 

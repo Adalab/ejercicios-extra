@@ -22,3 +22,5 @@ Luego modifica la función `renderBookmark` para que reciba un objeto como pará
 function renderBookmark(bmkData) {
 ...
 ```
+
+Ten en cuenta que también debes modificar la
