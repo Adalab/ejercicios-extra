@@ -1,6 +1,8 @@
-# Bookmark: Objetos
+# AdaBookmark: Arrays
 
-## Ejercicio 1
+## Ejercicios
+
+### 1. Crear listado de marcadores
 
 Hoy vamos a crear una única variable `bmkData` que almacenará los datos de todos los enlaces como un array. Podemos usar las variables con objetos del ejercicio de ayer para crear este array:
 
@@ -25,10 +27,10 @@ const bmkData_3 = {
 };
 
 // Lista con la información de todos los enlaces
-const bmkData = [ bmkData_1, bmkData_2, bmkData_3 ];
+const bmkData = [bmkData_1, bmkData_2, bmkData_3];
 ```
 
-## Ejercicio 2 (BONUS)
+## 2. BONUS: Crear listado de etiquetas
 
 Vamos a hacer un array también con las etiquetas de cada bookmark. Será un array dentro de un objeto dentro del array de todos los bookmark (ufff).
 

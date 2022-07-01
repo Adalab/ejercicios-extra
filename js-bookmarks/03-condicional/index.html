@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Ada-bookmarks</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="header__menu">
+        <a class="header__menulink" href="" title="Mostrar opciones de filtrado y visualización">
+          <i class="fas fa-hamburger"></i>
+        </a>
+      </nav>
+      <h1 class="header__title">Ada-bookmarks</h1>
+    </header>
+    <form class="menudropdown collapsed js_menu_dropdown">
+      <fieldset class="menu__data-search">
+        <h2 class="menu__title">Búsqueda</h2>
+        <label class="data-search__epigraph" for="search_desc">Buscar por descripción: <input class="data-search__tag js_in_search_desc" type="text" name="search_desc" id="search_desc"></label>
+        <h3 class="data-search__epigraph">Buscar por etiquetas:</h3>
+        <label class="data-search__tag" for="search_desc"><input type="checkbox" name="search_tags" id="search_tags_javascript"> <small class="data-search__hidden-label-text">Buscar por etiqueta </small>javascipt</label>
+        <label class="data-search__tag" for="search_desc"><input type="checkbox" name="search_tags" id="search_tags_portfolio">  <small class="data-search__hidden-label-text">Buscar por etiqueta </small>portfolio</label>
+        <label class="data-search__tag" for="search_desc"><input type="checkbox" name="search_tags" id="search_tags_portfolio">  <small class="data-search__hidden-label-text">Buscar por etiqueta </small>html</label>
+        <label class="data-search__epigraph" for="search_desc">
+          Buscar bookmarks de los profes:
+          <select class="data-search__tag" name="search_desc" id="search_desc">
+            <option disabled selected>Escoge una opción:</option>
+            <option value="all">Todas</option>
+            <option value="seen">Leído</option>
+            <option value="unseen">Por leer</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset class="menu__data-layout">
+        <h2 class="menu__title">Visualización</h2>
+        <button class="data-layout__button" title="Mostrar los bookmarks organizados como una de lista de tarjetas"><i class="fas fa-th"></i><span class="data-layout__button--text">Vista tarjetas</span></button>
+        <button class="data-layout__button selected" title="Mostrar los bookmarks como una tabla"><i class="fas fa-bars"></i><span class="data-layout__button--text">Vista tabla</span></button>
+      </fieldset>
+    </form>
+    <main class="main">
+      <h2>Lista de enlaces</h2>
+      <section class="data tableview js_databoard">
+        <div class="data__header">
+          <div>URL</div>
+          <div>Lección act</div>
+          <div>Despcripción</div>
+          <div>Etiquetas</div>
+        </div>
+        <ul class="data__list js_datalist">
+          <li class="data__listitem">
+            <article class="data__item">
+              <p class="item__url">
+                <a href="https://books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-2-programando-la-web/javascript/2_1_intro_a_la_programacion" target="_blank" rel="noopener noreferrer">
+                  books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-2-programando-la-web/javascript/2_1_intro_a_la_programacion
+                </a>
+              </p>
+              <p class="item__seen">
+                <input type="checkbox" checked name="item_imp_2" id="item_imp_2">
+              </p>
+              <p class="item__desc">JS en los materiales de Adalab</p>
+              <ul class="item__tags">
+                <li class="item__tag">javascript</li><li class="item__tag">HTML</li>
+              </ul>
+            </article>
+          </li>
+          <li class="data__listitem">
+            <article class="data__item">
+              <p class="item__url">
+                <a href="https://thesmartcoder.dev/9-awesome-projects-you-can-build-with-vanilla-javascript/" target="_blank">thesmartcoder.dev/9-awesome-projects-you-can-build-with-vanilla-javascript/</a></a></p>
+              <p class="item__seen">
+                <input type="checkbox" checked name="item_imp_1" id="item_imp_1">
+              </p>
+              <p class="item__desc">Ideas de proyectos JS</p>
+              <ul class="item__tags">
+                <li class="item__tag">javascript</li><li class="item__tag">portfolio</li>
+              </ul>
+            </article>
+          </li>
+          <li class="data__listitem">
+            <article class="data__item">
+              <p class="item__url">
+                <a href="https://books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-1-html-y-css/1_1_intro_a_la_web" target="_blank" rel="noopener noreferrer">books.adalab.es/materiales-del-curso-n/-MdR6Gp68BX20m1pi0z2/modulo-1-html-y-css/1_1_intro_a_la_web</a>
+              </p>
+              <p class="item__seen">
+                <input type="checkbox" name="item_imp_2" id="item_imp_2">
+              </p>
+              <p class="item__desc">HTML en los materiales de Adalab</p>
+              <ul class="item__tags">
+                <li class="item__tag">HTML</li><li class="item__tag">CSS</li>
+              </ul>
+            </article>
+          </li>
+        </ul>
+        <div class="data__actions">
+          <section class="data-actions__add hidden js_add_box">
+            <button class="data-actions__button-add" title="Crear un nuevo bookmark"><i class="fas fa-plus data-actions__button-add--icon"></i><span class="data-actions__button-add--label">Nueva</span></button>
+            <form class="data__item data-actions__data">
+              <h3 class="data-actions__title">Datos del nuevo bookmark:</h3>
+              <input class="data-actions__input" type="text" name="new_dir" id="new_dir" placeholder="Nueva URL">
+              <label class="data-actions__label">Esta lección <input class="data-actions__input" type="checkbox" name="new_seen" id="new_seen"></label>
+              <input class="data-actions__input" type="text" name="new_desc" id="new_desc" placeholder="Descripción">
+              <input class="data-actions__input" type="text" name="new_tags" id="new_tags" placeholder="Etiquetas (separadas por comas)">
+              <fieldset class="data-actions__add--buttons">
+                <button class="data-actions__button cancel">Cancelar</button>
+                <button class="data-actions__button accept">Guardar</button>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <small class="copy">&copy;2021 Adalab</small>
+    </footer>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>

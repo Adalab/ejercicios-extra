@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Ada-bookmarks</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="header__menu">
+        <a class="header__menulink js_link_dropdown" href="" title="Mostrar opciones de filtrado y visualización">
+          <i class="fas fa-hamburger"></i>
+        </a>
+      </nav>
+      <h1 class="header__title">Ada-bookmarks</h1>
+    </header>
+    <form class="menudropdown collapsed js_menu_dropdown">
+      <fieldset class="menu__data-search">
+        <h2 class="menu__title">Búsqueda</h2>
+        <label class="data-search__epigraph" for="search_desc">Buscar por descripción: <input class="data-search__tag" type="text" name="search_desc" id="search_desc"></label>
+        <h3 class="data-search__epigraph">Buscar por etiquetas:</h3>
+        <label class="data-search__tag" for="search_tags_javascript"><input type="checkbox" name="search_tags" id="search_tags_javascript"> <small class="data-search__hidden-label-text">Buscar por etiqueta </small>javascipt</label>
+        <label class="data-search__tag" for="search_tags_portfolio"> <input type="checkbox" name="search_tags" id="search_tags_portfolio">  <small class="data-search__hidden-label-text">Buscar por etiqueta </small>portfolio</label>
+        <label class="data-search__tag" for="search_tags_html">      <input type="checkbox" name="search_tags" id="search_tags_html">       <small class="data-search__hidden-label-text">Buscar por etiqueta </small>html</label>
+        <label class="data-search__epigraph" for="search_seen">
+          Buscar bookmarks de los profes:
+          <select class="data-search__tag" name="search_seen" id="search_seen">
+            <option disabled selected>Escoge una opción:</option>
+            <option value="all">Todas</option>
+            <option value="seen">Leído</option>
+            <option value="unseen">Por leer</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset class="menu__data-layout">
+        <h2 class="menu__title">Visualización</h2>
+        <button class="data-layout__button js_cardview_button" title="Mostrar los bookmarks organizados como una de lista de tarjetas"><i class="fas fa-th"></i><span class="data-layout__button--text">Vista tarjetas</span></button>
+        <button class="data-layout__button selected js_table_button" title="Mostrar los bookmarks como una tabla"><i class="fas fa-bars"></i><span class="data-layout__button--text">Vista tabla</span></button>
+      </fieldset>
+    </form>
+    <main class="main">
+      <h2>Lista de enlaces</h2>
+      <section class="data tableview js_boarddata">
+        <div class="data__header">
+          <div>URL</div>
+          <div>Leída</div>
+          <div>Despcripción</div>
+          <div>Etiquetas</div>
+        </div>
+        <ul class="data__list js_list_data">
+          <li>Cargando datos...</li>
+        </ul>
+        <div class="data__actions">
+          <section class="data-actions__add hidden js_section_add">
+            <button class="data-actions__button-add js_button_add" title="Crear un nuevo bookmark"><i class="fas fa-plus data-actions__button-add--icon"></i><span class="data-actions__button-add--label">Nueva</span></button>
+            <form class="data__item data-actions__data">
+              <h3 class="data-actions__title">Datos del nuevo bookmark:</h3>
+              <input class="data-actions__input" type="text" name="new_dir" id="new_dir" placeholder="Nueva URL">
+              <label class="data-actions__label"><!--Esta lección <input class="data-actions__input" type="checkbox" name="new_seen" id="new_seen">--></label>
+              <input class="data-actions__input" type="text" name="new_desc" id="new_desc" placeholder="Descripción">
+              <input class="data-actions__input" type="text" name="new_tags" id="new_tags" placeholder="Etiquetas (separadas por comas)">
+              <fieldset class="data-actions__add--buttons">
+                <button class="data-actions__button cancel">Cancelar</button>
+                <button class="data-actions__button accept">Guardar</button>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <small class="copy">&copy;2021 Adalab</small>
+    </footer>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
