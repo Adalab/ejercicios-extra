@@ -1,6 +1,8 @@
-# Bookmark: Objetos
+# AdaBookmark: Objetos
 
-## Ejercicio 1
+## Ejercicios
+
+### 1. Convertir el marcador en un objeto
 
 Crea un objeto `bmkData` para cada uno de los enlaces que contenga toda la información de las variables: `bmk_1_url`, `bmk_1_desc`, `bmk_1_seen`, `bmk_1_tags_1`, `bmk_1_tags_2`. Por ejemplo:
 
@@ -15,7 +17,7 @@ const bmkData_1 = {
 };
 ```
 
-Luego modifica la función `renderBookmark` para que reciba un objeto como parámetro.
+Luego modifica la función `renderBookmark()` para que reciba un objeto como parámetro.
 
 ```js
 ...
@@ -23,4 +25,4 @@ function renderBookmark(bmkData) {
 ...
 ```
 
-Ten en cuenta que también debes modificar la
+Ten en cuenta que también debes modificar la funcion los parámetros de las funciones `renderTags()` y `renderSeen()`.
